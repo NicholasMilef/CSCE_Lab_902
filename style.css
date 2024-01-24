@@ -1,0 +1,13 @@
+h1 {
+    color: grey;
+}
+
+.blue_overline_text {
+    color: blue;
+    text-decoration: overline;
+}
+
+#red_underline_text {
+    color: red;
+    text-decoration: underline;
+}
