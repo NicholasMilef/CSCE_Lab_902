@@ -2,14 +2,22 @@
 <html>
     <head>
         <title>Your Name</title>
-        <link rel="stylesheet" type="text/css" href="style.css"></link>
+        <link rel="stylesheet" type="text/css" href="style.css" id="page_style"></link>
     </head>
     <body>
+        <script src="functions.js"></script>
+
         <h1>Your Name</h1>
         <p>Welcome to CSCE 315 lab at <a href="https://www.tamu.edu/">Texas A&M</a></p>
         
+        <button type="button" onclick="button1()">Increment</button>
+        <p id="output"></p>
+
         <p class="blue_overline_text">Blue text</p>
         <p class="blue_overline_text" id="red_underline_text">Red text</p>
+
+        <button type="button" onclick="light_mode()">Light Mode</button>
+        <button type="button" onclick="dark_mode()">Dark Mode</button>
 
         <img src="https://brandguide.tamu.edu/assets/img/logos/tam-box-logo.png"/>
         <a href="about.html">Home</a>

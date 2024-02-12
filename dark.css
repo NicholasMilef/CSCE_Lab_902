@@ -1,0 +1,20 @@
+body {
+    background-color: #303030;
+	color: white;
+}
+
+a:link {
+	color: pink;
+}
+
+a:visited {
+	color: magenta;
+}
+
+a:hover {
+	color: hotpink;
+}
+
+a:active {
+	color: lightskyblue;
+}
